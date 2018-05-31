@@ -421,8 +421,8 @@ interfaces added after that are used as failover devices. By default,
 received traffic is only accepted when received through the active
 port. This constraint can be relaxed, which is useful for certain
 bridged network setups, by navigating to
-:menuselection:`System --> Tunables`, and clicking |ui-add| to add
-a tunable. Set the :guilabel:`Variable` to *net.link.lagg.failover_rx_all*,
+:menuselection:`System --> Tunables`, and clicking |ui-add|.
+Set the :guilabel:`Variable` to *net.link.lagg.failover_rx_all*,
 the :guilabel:`Value` to a non-zero integer, and the :guilabel:`Type` to
 *Sysctl*.
 
